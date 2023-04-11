@@ -6,3 +6,9 @@ export type MenuListType = {
     path: string
   }[]
 }
+
+export type formValuesType = {
+  name: string
+  email: string
+  password: string
+}

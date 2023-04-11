@@ -12,7 +12,7 @@ const Home: NextPage = () => {
           <title>Home | UI Components</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <section className='px-16 py-10 bg-slate-50 text-slate-900'>
+        <section className='px-16 py-10 bg-slate-50 text-slate-900 min-h-[82vh]'>
           <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 items-center'>
             <div className='text-xl flex flex-col gap-2'>
               <h1 className='mb-4 text-3xl'>Welcome</h1>

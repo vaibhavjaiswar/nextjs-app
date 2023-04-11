@@ -18,7 +18,7 @@ const Index: NextPage = () => {
           <div className='flex flex-col items-center'>
             <h1 className='my-3 text-4xl text-center'>UI Components</h1>
             <p className='my-3 text-center'>This web application is for learning purpose and coding practice. Click on button below to see all components.</p>
-            <button className='my-3 px-3 py-2 bg-slate-900 text-slate-50 rounded hover:bg-slate-800 focus:ring' onClick={() => router.push('/home')}>Go to Home</button>
+            <button className='my-3 btn' onClick={() => router.push('/home')}>Go to Home</button>
           </div>
         </section>
       </>
